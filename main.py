@@ -11,6 +11,7 @@ import pandas as pd
 from scripts.utility import *
 from langchain_community.chat_models.tongyi import ChatTongyi
 from langchain_openai import ChatOpenAI
+from langchain_ollama import ChatOllama
 
 mcp_use.set_debug(1)
 

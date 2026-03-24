@@ -12,6 +12,13 @@ def replace_content(file_path, target_str, new_str, uv_abs_path=None):
     with open(file_path, 'w') as f:
         f.write(content)
 
+script_dir = os.path.dirname(os.path.abspath(__file__))
+log_path = os.path.join(script_dir,'logs')
+if not os.path.exists(log_path):
+    os.mkdir(log_path)
+output_path = os.path.join(script_dir,'operation_space','output')
+if not os.path.exists(output_path):
+    os.mkdir(output_path)
 # 1. Put the full path to the uv executable
 result = subprocess.run(['which', 'uv'], capture_output=True, text=True)
 uv_path = result.stdout.strip()
@@ -22,7 +29,6 @@ except Exception as e:
     print(e)
 
 # 2. Put the full path to the mcp config
-script_dir = os.path.dirname(os.path.abspath(__file__))
 for root, dirs, files in os.walk(os.path.join(script_dir, 'data', 'tools')):
     if 'attack_tools' in root and 'mcp_config.json' in files:
         attack_tool_path = os.path.join(root, 'mcp_config.json')

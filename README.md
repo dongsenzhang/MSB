@@ -44,6 +44,9 @@ The development of MSB is based on [mcp-use](https://github.com/mcp-use/mcp-use/
 
     # Install dependencies
     uv add --requirements requirements.txt
+
+    # Deactivate uv
+    deactivate
    ```
 4. Setup
     ```
