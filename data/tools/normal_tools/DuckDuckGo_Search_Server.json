@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "ddg-search": {
+            "command": "uv",
+            "args": [
+                "--directory",
+                "/ABSOLUTE/PATH/TO/PARENT/FOLDER/",
+                "run",
+                "server.py"
+              ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "mcpServers": {
+        "pubmed-mcp-server": {
+            "command": "uv",
+            "args": [
+                "--directory",
+                "/ABSOLUTE/PATH/TO/PARENT/FOLDER/",
+                "run",
+                "pubmed_server.py"
+            ]
+        }
+    }
+}

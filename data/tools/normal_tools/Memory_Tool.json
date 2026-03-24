@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "mem0-memory-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@mem0ai/mem0-memory-mcp"
+      ]
+    }
+  }
+}

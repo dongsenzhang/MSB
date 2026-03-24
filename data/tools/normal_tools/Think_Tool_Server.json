@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "claude-mcp-think-tool": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@cgize/claude-mcp-think-tool"
+      ]
+    }
+  }
+}

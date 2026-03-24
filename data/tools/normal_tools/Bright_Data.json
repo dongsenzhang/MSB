@@ -1,0 +1,11 @@
+{
+    "mcpServers": {
+        "Bright Data": {
+            "command": "npx",
+            "args": ["@brightdata/mcp"],
+            "env": {
+                "API_TOKEN": "3be8abbf854e49e30c86e0288f677978dab1280a3935185d4a80e35a5b33afcd"
+            }
+        }
+    }
+}

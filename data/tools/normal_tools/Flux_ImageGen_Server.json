@@ -1,0 +1,13 @@
+{
+    "mcpServers": {
+        "image-generation-server": {
+            "command": "uv",
+            "args": [
+                "--directory",
+                "/ABSOLUTE/PATH/TO/PARENT/FOLDER/",
+                "run",
+                "image_server.py"
+            ]
+        }
+    }
+}

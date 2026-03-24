@@ -1,0 +1,13 @@
+{
+    "mcpServers": {
+        "mem0-memory-mcp": {
+            "command": "uv",
+            "args": [
+                "--directory",
+                "/ABSOLUTE/PATH/TO/PARENT/FOLDER/",
+                "run",
+                "main.py"
+            ]
+        }
+    }
+}

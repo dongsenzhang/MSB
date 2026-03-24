@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "terminal-controller": {
+            "command": "uv",
+            "args": [
+                "--directory",
+                "/ABSOLUTE/PATH/TO/PARENT/FOLDER/",
+                "run",
+                "word_mcp_server.py"
+              ]
+    }
+  }
+}

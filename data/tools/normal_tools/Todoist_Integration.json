@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "todoist": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "https://ai.todoist.net/mcp"]
+    }
+  }
+}

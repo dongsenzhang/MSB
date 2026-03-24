@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "supabase": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://mcp.supabase.com/mcp",
+        "--header",
+        "Authorization: Bearer sbp_822270f007aca3febb1159d5a7eccd92d4852e0f"
+      ]
+    }
+  }
+}
