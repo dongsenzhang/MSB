@@ -89,20 +89,20 @@ llms:
 Here are the yaml arguments representation for the agent `attack_type`.
 
 
-|        Attack Types        |            Attack            |                  YAML Argument                 | Remarks                                |
+|        **Attack Types**        |            **Attack**            |                  **YAML Argument**                 | **Remarks**                                |
 |:--------------------------:|:----------------------------:|:----------------------------------------------:|----------------------------------------|
-|    Tool Signature Attack   |      Name Collision (NC)     |                  name_overlap                  | Default to be combined with FE: NC-FE. |
-|    Tool Signature Attack   | Preference Manipulation (PM) |             preference_manipulation            | Default to be combined with FE: PM-FE. |
-|    Tool Signature Attack   |     Prompt Injection (PI)    |                prompt_injection                |                                        |
-|   Tool Parameters Attack   |  Out-of-Scope Parameter (OP) |             out_of_scope_parameter             |                                        |
-|    Tool Response Attack    |    User Impersonation (UI)   |                 simulated_user                 |                                        |
-|    Tool Response Attack    |       False Error (FE)       |                   false_error                  |                                        |
-|    Tool Response Attack    |      Tool Transfer (TT)      |                  tool_transfer                 | Default to be combined with OP: TT-OP. |
-| Retrieval Injection Attack |   Retrieval Injection (RI)   |              search_term_deception             |                                        |
-|        Mixed Attack        |             PI-UI            |         prompt_injection-simulated_user        |                                        |
-|        Mixed Attack        |             PI-FE            |          prompt_injection-false_error          |                                        |
-|        Mixed Attack        |             PM-UI            |     preference_manipulation-simulated_user     |                                        |
-|        Mixed Attack        |             PM-OP            | preference_manipulation-out_of_scope_parameter |                                        |
+|    Tool Signature Attack   |      Name Collision (**NC**)     |                  name_overlap                  | Default to be combined with FE: **NC-FE**. |
+|    Tool Signature Attack   | Preference Manipulation (**PM**) |             preference_manipulation            | Default to be combined with FE: **PM-FE**. |
+|    Tool Signature Attack   |     Prompt Injection (**PI**)    |                prompt_injection                |                                        |
+|   Tool Parameters Attack   |  Out-of-Scope Parameter (**OP**) |             out_of_scope_parameter             |                                        |
+|    Tool Response Attack    |    User Impersonation (**UI**)   |                 simulated_user                 |                                        |
+|    Tool Response Attack    |       False Error (**FE**)       |                   false_error                  |                                        |
+|    Tool Response Attack    |      Tool Transfer (**TT**)      |                  tool_transfer                 | Default to be combined with OP: **TT-OP**. |
+| Retrieval Injection Attack |   Retrieval Injection (**RI**)   |              search_term_deception             |                                        |
+|        Mixed Attack        |             **PI-UI**            |         prompt_injection-simulated_user        |                                        |
+|        Mixed Attack        |             **PI-FE**            |          prompt_injection-false_error          |                                        |
+|        Mixed Attack        |             **PM-UI**            |     preference_manipulation-simulated_user     |                                        |
+|        Mixed Attack        |             **PM-OP**            | preference_manipulation-out_of_scope_parameter |                                        |
 
 **Metrics**
 
